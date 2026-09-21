@@ -15,7 +15,7 @@ document.getElementById('sign-in-btn').addEventListener('click', function(){
     }
 
     else{
-       alert('Wrong Credentials. Please try again!') 
+       alert('Wrong Credentials! Please try again.') 
     }
 
 })
