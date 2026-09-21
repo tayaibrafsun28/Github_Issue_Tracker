@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Issue Tracker || Made by tayaibrafsun28</title>
+
+    <!-- FAV icon -->
+
+    <link rel="shortcut icon" href="./assets/github-logo.png" type="image/x-icon">
+
+    <!-- font awesome linked for icons -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+        integrity="sha512-rqQltXRuHxtPWhktpAZxLHUVJ3Eombn3hvk9PHjV/N5DMUYnzKPC1i3ub0mEXgFzsaZNeJcoE0YHq0j/GFsdGg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Tailwind + Daisy UI -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Google Font linked for font integration -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Style sheet linked -->
+
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+
+<body class="bg-primary">
+
+    <div class="wrapper h-screen flex items-center justify-center">
+        <div class="login-form bg-white w-full max-w-sm shrink-0 shadow-xl rounded-xl">
+
+            <div class="pt-8 flex flex-col items-center justify-center gap-2">
+                <img src="./assets/github-logo.png" alt="">
+                <h1 class="text-primary text-2xl font-semibold">GitHub Issues Tracker</h1>
+                <p class="text-secondary">Sign in to manage your issues</p>
+            </div>
+
+            <div class="card-body">
+                <fieldset class="fieldset space-y-1">
+                    <label class="label">Username</label>
+                    <input id="user-name" type="text" class="input w-full" placeholder="Enter Username" />
+                    <label class="label">Password</label>
+                    <input id="password" type="password" class="input w-full" placeholder="Enter Password" />
+
+                    <button id="sign-in-btn" class="btn btn-primary mt-4">Sign In</button>
+                </fieldset>
+            </div>
+
+            <div class="flex items-center gap-2 px-6 py-3">
+                <div class="h-px flex-1 bg-gray-200"></div>
+
+                <span class="text-xs text-primary font-bold">HERE</span>
+
+                <div class="h-px flex-1 bg-gray-200"></div>
+            </div>
+
+            <div class="flex flex-col gap-2 justify-center items-center p-6 text-sm">
+                <p class="text-secondary">Demo Credentials</p>
+                <div class="bg-primary w-full p-4 text-center">
+                    <p><span class="font-semibold">Username: </span> admin</p>
+                    <p><span class="font-semibold">Password: </span> admin123</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="./script/index.js"></script>
+
+</html>
